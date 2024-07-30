@@ -1,9 +1,25 @@
+import { feedback } from "../constants";
+import styles from "../style";
 
+import FeedBackCard from "./FeedBackCard";
 
 const Testimonials = () => {
   return (
-    <div>Testimonials</div>
-  )
-}
+    <section
+      id="clients"
+      className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}
+    >
+      {/*! Todo */}
+      <div />
+      <div className="w-full flex justify-between items-center md:flex-row flex-coll sm:mb-16 mb-6 relative ">
+        <h1 className={`${styles.heading2}`}>What people are <br className="sm:block hidden" /> saying about us</h1>
 
-export default Testimonials
+        <div className="w-full md:mt-0 mt-6">
+          <p className={`${styles.paragraph} text-left max-w-[450px]`}>Everything you need to accept card payments and grow your business anywhere on the planet.</p>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Testimonials;
