@@ -24,13 +24,14 @@ const Hero = () => (
         <h1 className="flex-1 font-poppins text-white font-semibold ss:text-[72px] text-[52px] ss:leading-[100px] leading-[75px]">
           The Next <br className="sm:block hidden" /> {""}
           <span className=" text-gradient  sm:block hidden">Generation </span>
-          Payment Method{" "}
         </h1>
         <div className="ss:flex hidden md:mr-4 mr-0">
           <GetStarted />
         </div>
       </div>
-      
+      <h1 className=" font-poppins text-white font-semibold ss:text-[68px] text-[52px] ss:leading-[100px] leading-[75px] w-full">
+        Payment Method 
+      </h1>
     </div>
   </section>
 );
