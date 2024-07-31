@@ -1,5 +1,5 @@
 import styles from './style'
-import { NavBar, Hero,Billing,Business,Button,CTA,CardDeal,Clients,FeedBackCard,Footer,GetStarted,Status,Testimonials} from './components';
+import { NavBar, Hero,Billing,Business,CTA,CardDeal,Clients,Footer,Status,Testimonials} from './components';
 
 
 const App = () => {
