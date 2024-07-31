@@ -26,17 +26,9 @@ const Footer = () => {
               <h4 className="font-poppins font-medium  leading-[23px] text-[18px] text-white">
                 {footerLink.title}
               </h4>
-              
               <ul>
-                {footerLink.links.map((link) => (
-                  <li key={link.key}>
-                    <a
-                      className="font-poppins font-normal text-[16px] leading-[23px] text-dimWhite hover:text-secondary cursor-pointer"
-                      href={link.link}
-                    >
-                      {link.name}
-                    </a>
-                  </li>
+                { footerLink.links.map((link) => (
+                  <li key={link.name} className={` font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer`}>{link.name}</li>
                 ))}
               </ul>
             </div>
